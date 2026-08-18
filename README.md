@@ -4,4 +4,4 @@
 I reached a point where I felt empty inside, so I decided to build a custom split keyboard. because why not?
 
 
-[![Empire Of The Sun - We Are The People](https://youtube.com)](https://youtube.com)
+[![Empire Of The Sun - We Are The People](https://www.youtube.com/watch?v=hN5X4kGhAtU)](https://www.youtube.com/watch?v=hN5X4kGhAtU)

@@ -1,0 +1,131 @@
+.title KiCad schematic
+.model __D7 D
+.model __D13 D
+.model __D1 D
+.model __D21 D
+.model __D10 D
+.model __D15 D
+.model __D22 D
+.model __D11 D
+.model __D17 D
+.model __D20 D
+.model __D16 D
+.model __D9 D
+.model __D3 D
+.model __D8 D
+.model __D2 D
+.model __D5 D
+.model __D23 D
+.model __D14 D
+.model __D19 D
+.model __D18 D
+.model __D12 D
+.model __D6 D
+.model __D4 D
+D39 __D39
+D40 __D40
+D45 __D45
+D44 __D44
+D43 __D43
+D48 __D48
+D27 __D27
+D28 __D28
+D33 __D33
+D34 __D34
+D41 __D41
+D47 __D47
+D37 __D37
+D36 __D36
+D46 __D46
+D42 __D42
+D25 __D25
+D24 __D24
+D30 __D30
+D31 __D31
+D32 __D32
+D26 __D26
+D38 __D38
+C10 GND 3V3 1u
+C7 VCC_SYS GND 1u
+L2 3V3 Net-_U2-DCCH_ 10u
+C11 3V3 GND 4.7u
+J5 __J5
+D7 Net-_D7-A_ Row_1 __D7
+SW13 __SW13
+D13 Net-_D13-A_ Row_2 __D13
+SW7 __SW7
+SW1 __SW1
+D1 Net-_D1-A_ Row_0 __D1
+U2 __U2
+SW21 __SW21
+D21 Net-_D21-A_ Row_3 __D21
+SW10 __SW10
+D10 Net-_D10-A_ Row_1 __D10
+D15 Net-_D15-A_ Row_2 __D15
+SW15 __SW15
+SW22 __SW22
+SW23 __SW23
+D22 Net-_D22-A_ Row_3 __D22
+SW12 __SW12
+D11 Net-_D11-A_ Row_1 __D11
+D17 Net-_D17-A_ Row_2 __D17
+SW18 __SW18
+SW17 __SW17
+SW11 __SW11
+D20 Net-_D20-A_ Row_3 __D20
+SW20 __SW20
+SW16 __SW16
+D16 Net-_D16-A_ Row_2 __D16
+SW9 __SW9
+D9 Net-_D9-A_ Row_1 __D9
+D3 Net-_D3-A_ Row_0 __D3
+D8 Net-_D8-A_ Row_1 __D8
+SW14 __SW14
+SW8 __SW8
+SW2 __SW2
+D2 Net-_D2-A_ Row_0 __D2
+SW3 __SW3
+D5 Net-_D5-A_ Row_0 __D5
+D23 Net-_D23-A_ Row_3 __D23
+SW5 __SW5
+D14 Net-_D14-A_ Row_2 __D14
+D19 Net-_D19-A_ Row_3 __D19
+SW19 __SW19
+D18 Net-_D18-A_ Row_2 __D18
+SW6 __SW6
+D12 Net-_D12-A_ Row_1 __D12
+D6 Net-_D6-A_ Row_0 __D6
+D4 Net-_D4-A_ Row_0 __D4
+SW4 __SW4
+U3 __U3
+R9 LED_SCL 3V3 4.7k
+R10 LED_SDA 3V3 4.7k
+C29 3V3 GND 100n
+R8 Net-_U3-RSET_ GND 20k
+C30 VCC_SYS GND 100n
+C31 VCC_SYS GND 10u
+R17 3V3 PGOOD 100k
+R7 GND Net-_U4-TS_ 10k
+C8 VCC_SYS GND 4.7u
+R1 +BATT BAT_SENSE 1Meg
+R4 GND BAT_SENSE 1Meg
+R14 Net-_D50-BK_ STAT_B 330
+R16 Net-_D50-RK_ STAT_R 330
+R15 STAT_G Net-_D50-GK_ 330
+D50 __D50
+R5 3V3 TRACKPAD_SDA 4.7k
+J4 __J4
+R6 3V3 TRACKPAD_SCL 4.7k
+J3 __J3
+J1 __J1
+R3 GND Net-_J3-CC2_ 5.1k
+R2 Net-_J3-CC1_ GND 5.1k
+C9 +BATT GND 4.7u
+C6 +5V GND 4.7u
+R19 BAT_CHG 3V3 10k
+R11 Net-_U4-ILIM_ GND 1.1k
+R12 Net-_U4-ISET_ GND 590
+R18 Net-_U4-TMR_ GND 46.4k
+R13 Net-_U4-ITERM_ GND 3k
+U4 __U4
+.end

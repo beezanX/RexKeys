@@ -5,145 +5,6 @@
 	(uuid "c053c90b-601f-46c1-830a-356c8d75a13c")
 	(paper "A3")
 	(lib_symbols
-		(symbol "+5V_1"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Battery_Management:BQ24074RGT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2053,7 +1914,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2563,518 +2424,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_RGB"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_RGB"
-				(at 0 -9.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_RGB_0_1"
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.81) (xy 1.27 6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.794 8.382)
-					(end -2.794 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "R"
-					(at -1.905 3.81 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "G"
-					(at -1.905 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "B"
-					(at -1.905 -6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "LED_RGB_1_1"
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "RK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "GK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "BK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "BA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "GA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "RA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
@@ -3409,25 +2758,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -4522,1272 +3869,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_1"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_10"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_10_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_10_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_11"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_11_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_11_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_2"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_2_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_2_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_3_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_3_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_4"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_4_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_4_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_5"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_5_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_5_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_6"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_6_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_6_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_7"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_7_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_7_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_8"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_8_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_8_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_9"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_9_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_9_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LED_RGB_1"
+		(symbol "LED_RGB_5050:LED_RGB_5050"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -5807,7 +3889,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_RGB"
+			(property "Value" "LED_RGB_5050"
 				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5872,7 +3954,7 @@
 					)
 				)
 			)
-			(symbol "LED_RGB_1_0_0"
+			(symbol "LED_RGB_5050_0_0"
 				(text "R"
 					(at -1.905 3.81 0)
 					(effects
@@ -5898,7 +3980,7 @@
 					)
 				)
 			)
-			(symbol "LED_RGB_1_0_1"
+			(symbol "LED_RGB_5050_0_1"
 				(polyline
 					(pts
 						(xy -1.27 6.35) (xy -1.27 3.81)
@@ -6231,11 +4313,11 @@
 					)
 				)
 			)
-			(symbol "LED_RGB_1_1_1"
+			(symbol "LED_RGB_5050_1_1"
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 -5.08 0)
 					(length 2.54)
-					(name "RK"
+					(name "BK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6251,9 +4333,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 5.08 0)
 					(length 2.54)
-					(name "GK"
+					(name "RK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6269,9 +4351,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "BK"
+					(name "GK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7727,8 +5809,12 @@
 		)
 		(symbol "power:+5V"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7842,8 +5928,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7863,8 +5948,12 @@
 		)
 		(symbol "power:GND"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7954,8 +6043,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8056,7 +6144,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8090,8 +6178,12 @@
 		)
 		(symbol "power:VDD"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8110,7 +6202,7 @@
 				)
 			)
 			(property "Value" "VDD"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -8205,8 +6297,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "VDD"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8477,12 +6568,6 @@
 		(uuid "08efe20b-a95e-4b76-a0ba-a8fd15d30a2e")
 	)
 	(junction
-		(at 33.02 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ada5168-8b70-4d8e-9450-1f4af8d7f471")
-	)
-	(junction
 		(at 74.93 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8513,7 +6598,7 @@
 		(uuid "1b588c38-7a87-452e-84ed-5364d2291898")
 	)
 	(junction
-		(at 137.16 130.81)
+		(at 133.35 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c9329d3-b804-45dc-adbc-e28515935421")
@@ -8555,7 +6640,7 @@
 		(uuid "2c65e69b-d41f-4bb4-9b57-36507346fe04")
 	)
 	(junction
-		(at 71.12 149.86)
+		(at 74.93 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3805691a-08e2-420f-bf2f-301e990a7474")
@@ -8567,7 +6652,7 @@
 		(uuid "431195ff-fc2f-4165-b1e6-21ae587b9006")
 	)
 	(junction
-		(at 109.22 137.16)
+		(at 105.41 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44695ea5-703b-4c97-b879-21a904e5d44f")
@@ -8591,7 +6676,7 @@
 		(uuid "48a8f9d9-e4cc-4885-b579-13b6edb93392")
 	)
 	(junction
-		(at 110.49 149.86)
+		(at 106.68 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48c3f1e9-39b0-4dd4-865d-cccc259ef251")
@@ -8675,7 +6760,13 @@
 		(uuid "8a794b7e-8871-4367-98ce-479fa0b0cdfc")
 	)
 	(junction
-		(at 109.22 125.73)
+		(at 36.83 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a7bd64b-7ee4-4d30-96dc-1321beca60af")
+	)
+	(junction
+		(at 105.41 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91c805ba-9c41-4531-bf9f-169dd81e0c08")
@@ -8849,7 +6940,7 @@
 		(uuid "fce9a84d-1e38-478e-b1c3-c66ef4156d77")
 	)
 	(junction
-		(at 144.78 137.16)
+		(at 140.97 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe18c206-4ab7-4eb7-800c-b4494b904117")
@@ -8979,11 +7070,11 @@
 		(uuid "bdf2c041-6cc5-4850-8df7-382959b00f8e")
 	)
 	(no_connect
-		(at 60.96 127)
+		(at 64.77 128.27)
 		(uuid "cdf3bb6a-e681-4da1-a19e-76b5a59eff40")
 	)
 	(no_connect
-		(at 63.5 127)
+		(at 67.31 128.27)
 		(uuid "d3477ff5-08ba-4b2a-a422-e31f8170720d")
 	)
 	(no_connect
@@ -9058,7 +7149,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 127) (xy 53.34 127)
+			(xy 54.61 128.27) (xy 57.15 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9088,7 +7179,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 162.56) (xy 139.7 167.64)
+			(xy 135.89 165.1) (xy 135.89 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9138,7 +7229,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 137.16) (xy 144.78 139.7)
+			(xy 140.97 139.7) (xy 140.97 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9168,7 +7259,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 132.08) (xy 132.08 132.08)
+			(xy 125.73 134.62) (xy 128.27 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9198,7 +7289,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 135.89) (xy 127 137.16)
+			(xy 123.19 138.43) (xy 123.19 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9308,7 +7399,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 165.1) (xy 124.46 165.1)
+			(xy 119.38 167.64) (xy 120.65 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9378,7 +7469,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 127) (xy 48.26 127)
+			(xy 26.67 127) (xy 26.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a87abdb-1505-41e4-91eb-cb51c9ec8166")
+	)
+	(wire
+		(pts
+			(xy 49.53 128.27) (xy 52.07 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9388,7 +7489,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 142.24) (xy 71.12 149.86)
+			(xy 74.93 143.51) (xy 74.93 151.13)
 		)
 		(stroke
 			(width 0)
@@ -9408,23 +7509,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 135.89) (xy 127 135.89)
+			(xy 111.76 138.43) (xy 123.19 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3ce32890-3785-431d-a1ac-655b410ed635")
-	)
-	(wire
-		(pts
-			(xy 31.75 125.73) (xy 33.02 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d2d9138-8841-4ece-b941-e4ffaf07ce12")
 	)
 	(wire
 		(pts
@@ -9478,6 +7569,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 119.38) (xy 55.88 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466814da-ae2e-4cf1-817b-4d0287a91843")
+	)
+	(wire
+		(pts
 			(xy 160.02 60.96) (xy 172.72 60.96)
 		)
 		(stroke
@@ -9518,7 +7619,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 130.81) (xy 137.16 130.81)
+			(xy 129.54 133.35) (xy 133.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -9528,7 +7629,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 138.43) (xy 109.22 137.16)
+			(xy 105.41 140.97) (xy 105.41 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9608,7 +7709,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 149.86) (xy 114.3 149.86)
+			(xy 106.68 152.4) (xy 110.49 152.4)
 		)
 		(stroke
 			(width 0)
@@ -9638,13 +7739,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 137.16) (xy 144.78 137.16)
+			(xy 142.24 139.7) (xy 140.97 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5717df71-2a42-42bc-8996-74dd6267b8e4")
+	)
+	(wire
+		(pts
+			(xy 26.67 127) (xy 36.83 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d8a60c-3f47-4c83-957f-c9703e152c76")
 	)
 	(wire
 		(pts
@@ -9668,7 +7779,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 137.16) (xy 139.7 137.16)
+			(xy 140.97 139.7) (xy 135.89 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9708,6 +7819,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 123.19) (xy 36.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6435afd8-0ddd-42f6-b383-6bbe09a5b2bf")
+	)
+	(wire
+		(pts
 			(xy 335.28 48.26) (xy 335.28 54.61)
 		)
 		(stroke
@@ -9718,7 +7839,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 165.1) (xy 124.46 162.56)
+			(xy 120.65 167.64) (xy 120.65 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9858,7 +7979,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 125.73) (xy 109.22 125.73)
+			(xy 111.76 128.27) (xy 105.41 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9898,7 +8019,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 162.56) (xy 119.38 162.56)
+			(xy 111.76 165.1) (xy 115.57 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9918,7 +8039,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 125.73) (xy 115.57 135.89)
+			(xy 111.76 128.27) (xy 111.76 138.43)
 		)
 		(stroke
 			(width 0)
@@ -9948,7 +8069,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 118.11) (xy 40.64 121.92)
+			(xy 44.45 119.38) (xy 44.45 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9978,7 +8099,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 132.08) (xy 132.08 137.16)
+			(xy 128.27 134.62) (xy 128.27 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10008,7 +8129,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 138.43) (xy 109.22 138.43)
+			(xy 104.14 140.97) (xy 105.41 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10018,7 +8139,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 162.56) (xy 127 168.91)
+			(xy 123.19 165.1) (xy 123.19 171.45)
 		)
 		(stroke
 			(width 0)
@@ -10078,7 +8199,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 137.16) (xy 119.38 137.16)
+			(xy 105.41 139.7) (xy 115.57 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10095,6 +8216,16 @@
 			(type default)
 		)
 		(uuid "9da64c52-5a84-4509-86b4-9c469ba1d7f1")
+	)
+	(wire
+		(pts
+			(xy 36.83 123.19) (xy 36.83 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc15275-e102-40df-bea4-794019dc6131")
 	)
 	(wire
 		(pts
@@ -10118,7 +8249,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 125.73) (xy 107.95 125.73)
+			(xy 105.41 128.27) (xy 104.14 128.27)
 		)
 		(stroke
 			(width 0)
@@ -10198,7 +8329,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 149.86) (xy 110.49 149.86)
+			(xy 35.56 119.38) (xy 41.91 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2253c4c-3878-4855-aeb5-3507b8ad8aab")
+	)
+	(wire
+		(pts
+			(xy 104.14 152.4) (xy 106.68 152.4)
 		)
 		(stroke
 			(width 0)
@@ -10218,7 +8359,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 149.86) (xy 110.49 157.48)
+			(xy 106.68 152.4) (xy 106.68 160.02)
 		)
 		(stroke
 			(width 0)
@@ -10228,7 +8369,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 149.86) (xy 71.12 154.94)
+			(xy 74.93 151.13) (xy 74.93 156.21)
 		)
 		(stroke
 			(width 0)
@@ -10398,7 +8539,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 118.11) (xy 38.1 121.92)
+			(xy 41.91 119.38) (xy 41.91 123.19)
 		)
 		(stroke
 			(width 0)
@@ -10508,7 +8649,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 125.73) (xy 33.02 127)
+			(xy 36.83 127) (xy 36.83 128.27)
 		)
 		(stroke
 			(width 0)
@@ -10518,7 +8659,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 130.81) (xy 137.16 137.16)
+			(xy 133.35 133.35) (xy 133.35 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10734,7 +8875,7 @@
 	)
 	(global_label "+BATT"
 		(shape bidirectional)
-		(at 107.95 125.73 180)
+		(at 104.14 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10744,7 +8885,7 @@
 		)
 		(uuid "052810c7-b1bd-4b29-aa07-ec79653f9a2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.9873 125.73 0)
+			(at 94.1773 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10936,7 +9077,7 @@
 	)
 	(global_label "3V3"
 		(shape bidirectional)
-		(at 144.78 130.81 0)
+		(at 140.97 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10946,7 +9087,7 @@
 		)
 		(uuid "0de00e67-82dd-4ea7-8c49-654fd1e7db00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.3841 130.81 0)
+			(at 148.5741 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11052,7 +9193,7 @@
 	)
 	(global_label "PGOOD"
 		(shape bidirectional)
-		(at 133.35 130.81 90)
+		(at 129.54 133.35 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11062,7 +9203,7 @@
 		)
 		(uuid "11772480-569f-42c5-b605-455ef4cd9375")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 123.413 90)
+			(at 129.54 125.953 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11486,7 +9627,7 @@
 	)
 	(global_label "3V3"
 		(shape bidirectional)
-		(at 132.08 162.56 270)
+		(at 128.27 165.1 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11496,7 +9637,7 @@
 		)
 		(uuid "24fe7ce8-173b-4662-9c47-0b0febdd0f5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 167.1227 90)
+			(at 128.27 169.6627 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12022,7 +10163,7 @@
 	)
 	(global_label "USB_D+"
 		(shape input)
-		(at 52.07 127 90)
+		(at 55.88 128.27 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12032,7 +10173,7 @@
 		)
 		(uuid "3a7b3544-49b8-4ece-9ba1-c074f6955e74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 119.4847 90)
+			(at 55.88 120.7547 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13486,17 +11627,17 @@
 	)
 	(global_label "3V3"
 		(shape bidirectional)
-		(at 153.67 137.16 0)
+		(at 149.86 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.016 1.016)
 			)
 			(justify left)
 		)
 		(uuid "897ce813-1e3a-4dd5-830c-6ce0d36e482a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.2327 137.16 0)
+			(at 155.943 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14514,7 +12655,7 @@
 	)
 	(global_label "BAT_CHG"
 		(shape bidirectional)
-		(at 144.78 139.7 270)
+		(at 140.97 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14524,7 +12665,7 @@
 		)
 		(uuid "c5216ce7-f781-498c-b0a0-8954151a495a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.78 147.0568 90)
+			(at 140.97 149.5968 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15038,7 +13179,7 @@
 	)
 	(global_label "VCC_SYS"
 		(shape bidirectional)
-		(at 107.95 138.43 180)
+		(at 104.14 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15048,7 +13189,7 @@
 		)
 		(uuid "db3cda4a-8efb-4d77-9697-6b1017b9ee70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.19 138.43 0)
+			(at 94.38 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15470,7 +13611,7 @@
 	)
 	(global_label "USB_D-"
 		(shape input)
-		(at 46.99 127 90)
+		(at 50.8 128.27 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15480,7 +13621,7 @@
 		)
 		(uuid "f4dbc102-2405-4807-a8a5-2e438d43d536")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.99 119.4847 90)
+			(at 50.8 120.7547 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15744,7 +13885,7 @@
 			(uuid "85c61358-3eba-409f-bc07-fb0e0d918286")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW1")
 					(unit 1)
@@ -15753,7 +13894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 320.04 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -15783,8 +13924,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 320.04 176.53 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 320.04 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15795,7 +13936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 176.53 0)
+			(at 320.04 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15805,8 +13946,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 320.04 176.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15834,7 +13976,7 @@
 			(uuid "d65539f1-b35c-4c33-88b7-f03a2cf8d4d6")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D40")
 					(unit 1)
@@ -15843,7 +13985,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 320.04 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -15873,8 +14015,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 320.04 151.13 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 320.04 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15885,7 +14027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 151.13 0)
+			(at 320.04 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15895,8 +14037,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 320.04 151.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15924,7 +14067,7 @@
 			(uuid "fa6eb717-b544-424c-8a63-0954df6b76b2")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D34")
 					(unit 1)
@@ -15933,7 +14076,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 220.98 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -15963,8 +14106,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 220.98 176.53 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 220.98 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15975,7 +14118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 176.53 0)
+			(at 220.98 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15985,8 +14128,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 220.98 176.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16014,7 +14158,7 @@
 			(uuid "4536fb78-1e31-4675-a636-0e1841622483")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D37")
 					(unit 1)
@@ -16076,8 +14220,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 22.86 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16090,7 +14235,7 @@
 			(uuid "c4b42e03-132d-4fd2-b4bc-e61b7207560b")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR029")
 					(unit 1)
@@ -16194,7 +14339,7 @@
 			(uuid "4fa4de72-4e85-41e6-9a7b-b6057dfb6b59")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D14")
 					(unit 1)
@@ -16274,7 +14419,7 @@
 			(uuid "885e9f61-43b3-471b-9cca-a7d451ea74e3")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW7")
 					(unit 1)
@@ -16283,7 +14428,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 220.98 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -16313,8 +14458,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 220.98 125.73 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 220.98 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16325,7 +14470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 125.73 0)
+			(at 220.98 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16335,8 +14480,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 220.98 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16364,7 +14510,7 @@
 			(uuid "0534b84f-4a0d-441f-abed-73f02b49898b")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D25")
 					(unit 1)
@@ -16373,7 +14519,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 187.96 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -16403,8 +14549,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 187.96 176.53 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 187.96 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16415,7 +14561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 176.53 0)
+			(at 187.96 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16425,8 +14571,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 187.96 176.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16454,7 +14601,7 @@
 			(uuid "40f9f92a-395a-4ea1-b5cd-9218db5383e4")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D36")
 					(unit 1)
@@ -16464,7 +14611,7 @@
 	)
 	(symbol
 		(lib_id "Battery_Management:BQ24074RGT")
-		(at 129.54 149.86 90)
+		(at 125.73 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16474,7 +14621,7 @@
 		(dnp no)
 		(uuid "0be4b56d-4c21-4430-bce1-eef0dd07a9a3")
 		(property "Reference" "U4"
-			(at 149.098 149.86 0)
+			(at 145.288 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16484,7 +14631,7 @@
 			)
 		)
 		(property "Value" "BQ24074RGT"
-			(at 151.638 149.86 0)
+			(at 147.828 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16494,7 +14641,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
-			(at 143.51 142.24 0)
+			(at 139.7 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16506,7 +14653,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq24074.pdf"
-			(at 124.46 142.24 0)
+			(at 120.65 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16517,7 +14664,7 @@
 			)
 		)
 		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
-			(at 129.54 149.86 0)
+			(at 125.73 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16579,7 +14726,7 @@
 			(uuid "00457c90-0730-46b5-859b-afe09f99714e")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "U4")
 					(unit 1)
@@ -16683,7 +14830,7 @@
 			(uuid "3c7b3267-0237-409c-8a54-9444f83b59c3")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D7")
 					(unit 1)
@@ -16693,7 +14840,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 40.64 124.46 0)
+		(at 44.45 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16703,7 +14850,7 @@
 		(dnp no)
 		(uuid "12f34a3d-22ba-48fb-8a5e-5555a89bea49")
 		(property "Reference" "R3"
-			(at 41.91 123.19 0)
+			(at 45.72 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16714,7 +14861,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 41.91 125.73 0)
+			(at 45.72 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16725,7 +14872,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 40.64 124.46 0)
+			(at 44.45 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16736,7 +14883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 124.46 0)
+			(at 44.45 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16746,8 +14893,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 40.64 124.46 0)
+		(property "Description" "Resistor, small symbol"
+			(at 44.45 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16763,7 +14911,7 @@
 			(uuid "518e3d04-8363-4d5d-ad93-2bf707667ddc")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R3")
 					(unit 1)
@@ -16867,7 +15015,7 @@
 			(uuid "a8f27f38-52e5-4b4e-ab3d-d7d77dd98a71")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D6")
 					(unit 1)
@@ -16944,7 +15092,7 @@
 			(uuid "0bb5709d-834f-487c-b5b3-f73ac2d96cf1")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR014")
 					(unit 1)
@@ -17022,7 +15170,7 @@
 			(uuid "a08915b9-e14b-40f2-a354-9a13a3a69e98")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR013")
 					(unit 1)
@@ -17061,7 +15209,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.072 223.52 90)
 			(hide yes)
 			(show_name no)
@@ -17101,7 +15249,7 @@
 			(uuid "a810b0bd-d18a-4cc7-86cb-7e5e8b4f1573")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R16")
 					(unit 1)
@@ -17181,7 +15329,7 @@
 			(uuid "4b369c56-2b5a-48a8-9e2f-ce4a51b49396")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW16")
 					(unit 1)
@@ -17191,7 +15339,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 133.35 180)
+		(at 105.41 135.89 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17201,7 +15349,7 @@
 		(dnp no)
 		(uuid "1cd44601-7bcc-41f6-bfc8-c7b61a47f407")
 		(property "Reference" "C8"
-			(at 106.172 135.128 0)
+			(at 102.362 137.668 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17212,7 +15360,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 106.426 132.588 0)
+			(at 102.616 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17222,8 +15370,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 108.2548 129.54 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 104.4448 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17234,7 +15382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 133.35 0)
+			(at 105.41 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17245,7 +15393,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 133.35 0)
+			(at 105.41 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17262,7 +15410,7 @@
 			(uuid "4fda4978-6b9d-470a-b7fc-4f00b1ded616")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "C8")
 					(unit 1)
@@ -17303,7 +15451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 350.012 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -17343,7 +15491,7 @@
 			(uuid "ced630e5-1e29-4fce-9a9e-0c3eeae9e57f")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R9")
 					(unit 1)
@@ -17352,7 +15500,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 254 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -17382,8 +15530,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 254 151.13 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 254 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17394,7 +15542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 151.13 0)
+			(at 254 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17404,8 +15552,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 254 151.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17433,7 +15582,7 @@
 			(uuid "f4242dd7-da5e-4026-a5b4-57b73d6d720a")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D32")
 					(unit 1)
@@ -17474,7 +15623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 41.91 215.392 90)
 			(hide yes)
 			(show_name no)
@@ -17514,7 +15663,7 @@
 			(uuid "f7d20820-41c8-410b-84f7-75c51a70c663")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R1")
 					(unit 1)
@@ -17577,8 +15726,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module"
 			(at 85.09 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17771,7 +15921,7 @@
 			(uuid "06e2773d-4547-45c9-8968-ba0683820eb9")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "U2")
 					(unit 1)
@@ -17851,7 +16001,7 @@
 			(uuid "985a7b8c-11e3-4159-93ae-af08415519c0")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW5")
 					(unit 1)
@@ -17931,7 +16081,7 @@
 			(uuid "6255f791-22d1-4666-8cdb-bbeeb35df032")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW13")
 					(unit 1)
@@ -18011,7 +16161,7 @@
 			(uuid "2c1072c6-269e-4fa6-a81c-036a1baa3726")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW12")
 					(unit 1)
@@ -18115,7 +16265,7 @@
 			(uuid "5391fddf-f3d3-4e45-a3dc-ed6d43eb9ce8")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D15")
 					(unit 1)
@@ -18195,7 +16345,7 @@
 			(uuid "3032612c-a40f-48aa-b092-0d4994b244f7")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW10")
 					(unit 1)
@@ -18299,7 +16449,7 @@
 			(uuid "ef6f8d62-acdc-48b8-b755-ece8edb54fb2")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D17")
 					(unit 1)
@@ -18379,7 +16529,7 @@
 			(uuid "ce67d601-2c08-4007-8dc6-1fa7d727b4fb")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW6")
 					(unit 1)
@@ -18418,7 +16568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 78.232 223.52 90)
 			(hide yes)
 			(show_name no)
@@ -18458,7 +16608,7 @@
 			(uuid "2980115f-c5e7-43cb-80d6-52df6fd18be8")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R14")
 					(unit 1)
@@ -18538,7 +16688,7 @@
 			(uuid "1aed4156-9c63-464d-abaf-c7f52ad66e98")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW9")
 					(unit 1)
@@ -18547,7 +16697,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 187.96 227.33 0)
 		(unit 1)
 		(body_style 1)
@@ -18577,8 +16727,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 187.96 227.33 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 187.96 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18589,7 +16739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 227.33 0)
+			(at 187.96 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18599,8 +16749,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 187.96 227.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18628,7 +16779,7 @@
 			(uuid "064f5536-2889-43d9-b167-d7dddae521ce")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D46")
 					(unit 1)
@@ -18709,7 +16860,7 @@
 			(uuid "d287d840-b13d-4bf8-a63c-383c72c65c70")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R5")
 					(unit 1)
@@ -18718,7 +16869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 254 201.93 0)
 		(unit 1)
 		(body_style 1)
@@ -18748,8 +16899,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 254 201.93 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 254 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18760,7 +16911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 201.93 0)
+			(at 254 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18770,8 +16921,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 254 201.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18799,7 +16951,7 @@
 			(uuid "3498fabd-fb29-488e-be36-43bc29d4bca7")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D43")
 					(unit 1)
@@ -18809,7 +16961,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 167.64 90)
+		(at 139.7 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18819,7 +16971,7 @@
 		(dnp no)
 		(uuid "45f192c8-11ed-4508-824b-08730f301a3b")
 		(property "Reference" "R12"
-			(at 141.224 166.116 0)
+			(at 137.414 168.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18830,7 +16982,7 @@
 			)
 		)
 		(property "Value" "590"
-			(at 145.542 166.116 0)
+			(at 141.732 168.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18840,8 +16992,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 143.51 169.418 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 139.7 171.958 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18852,7 +17004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 167.64 0)
+			(at 139.7 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18863,7 +17015,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 167.64 0)
+			(at 139.7 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18880,7 +17032,7 @@
 			(uuid "2efe09c2-ea02-4ee1-a8e4-cc7cc0e79c61")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R12")
 					(unit 1)
@@ -18890,7 +17042,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 125.73 132.08 90)
+		(at 121.92 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18900,7 +17052,7 @@
 		(dnp no)
 		(uuid "4608959f-fbc3-4234-a6cb-2dc63bdfabf3")
 		(property "Reference" "R7"
-			(at 122.936 130.048 90)
+			(at 119.126 132.588 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18911,7 +17063,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 129.794 129.794 90)
+			(at 125.984 132.334 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18921,8 +17073,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 125.73 133.858 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 121.92 136.398 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18933,7 +17085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 132.08 0)
+			(at 121.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18944,7 +17096,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 125.73 132.08 0)
+			(at 121.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18961,7 +17113,7 @@
 			(uuid "92a8f340-ee2f-478e-9dcb-4c740507b236")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R7")
 					(unit 1)
@@ -18970,7 +17122,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 187.96 201.93 0)
 		(unit 1)
 		(body_style 1)
@@ -19000,8 +17152,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 187.96 201.93 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 187.96 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19012,7 +17164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 201.93 0)
+			(at 187.96 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19022,8 +17174,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 187.96 201.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19051,7 +17204,7 @@
 			(uuid "4ff5dcf6-7d1e-4771-996b-6d3c842837f3")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D41")
 					(unit 1)
@@ -19128,7 +17281,7 @@
 			(uuid "b6a1dca4-6c6c-4931-ae11-778a66a81fb7")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#FLG06")
 					(unit 1)
@@ -19137,9 +17290,8 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 107.95 149.86 90)
+		(at 104.14 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19150,7 +17302,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e2c743d-d422-45a3-ba8f-ed48048ca30d")
 		(property "Reference" "#PWR016"
-			(at 111.76 149.86 0)
+			(at 107.95 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19161,7 +17313,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 104.14 149.8599 90)
+			(at 100.33 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19172,7 +17324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 149.86 0)
+			(at 104.14 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19183,7 +17335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 149.86 0)
+			(at 104.14 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19194,7 +17346,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 107.95 149.86 0)
+			(at 104.14 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19208,7 +17360,7 @@
 			(uuid "1a607fdc-d58d-492e-a6ab-844969e81926")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR016")
 					(unit 1)
@@ -19218,7 +17370,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 118.11 90)
+		(at 55.88 119.38 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19228,7 +17380,7 @@
 		(dnp no)
 		(uuid "4f16d838-ef23-44a4-9302-53d191816f4f")
 		(property "Reference" "#PWR010"
-			(at 46.99 118.11 0)
+			(at 62.23 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19239,7 +17391,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 115.824 90)
+			(at 55.88 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19250,7 +17402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 118.11 0)
+			(at 55.88 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19261,7 +17413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 118.11 0)
+			(at 55.88 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19271,8 +17423,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 40.64 118.11 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19285,7 +17438,7 @@
 			(uuid "42857ebe-b6bf-442a-9a05-20a127a46c81")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR010")
 					(unit 1)
@@ -19294,7 +17447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 287.02 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -19324,8 +17477,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 287.02 176.53 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 287.02 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19336,7 +17489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 176.53 0)
+			(at 287.02 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19346,8 +17499,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 287.02 176.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19375,7 +17529,7 @@
 			(uuid "7c05aa40-13c2-42f1-808c-b94ddd77c520")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D39")
 					(unit 1)
@@ -19479,7 +17633,7 @@
 			(uuid "a93d6b6d-f32f-42d8-8d76-e1139e552b44")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D13")
 					(unit 1)
@@ -19572,7 +17726,7 @@
 			(uuid "6a3736dc-4274-461f-8409-54b168d06dfa")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "J4")
 					(unit 1)
@@ -19581,7 +17735,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 187.96 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -19611,8 +17765,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 187.96 125.73 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19623,7 +17777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 125.73 0)
+			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19633,8 +17787,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 187.96 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19662,7 +17817,7 @@
 			(uuid "a7eb74b0-f051-43ae-b93f-cb137bb8e01e")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D24")
 					(unit 1)
@@ -19724,8 +17879,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 39.37 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19747,7 +17903,7 @@
 			(uuid "f27dfc71-b698-4c78-a5ca-2705fe82e808")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "J5")
 					(unit 1)
@@ -19810,8 +17966,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19824,7 +17981,7 @@
 			(uuid "917e3f86-3545-4e73-997e-560ab5aa38e8")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR030")
 					(unit 1)
@@ -19834,7 +17991,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 48.26 142.24 90)
+		(at 52.07 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19844,7 +18001,7 @@
 		(dnp no)
 		(uuid "56da9baf-b160-420a-950c-2c0966667b6a")
 		(property "Reference" "J3"
-			(at 36.068 154.686 90)
+			(at 39.878 155.956 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19855,7 +18012,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 63.5 157.226 90)
+			(at 67.31 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19866,7 +18023,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 48.26 138.43 0)
+			(at 52.07 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19877,7 +18034,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 48.26 138.43 0)
+			(at 52.07 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19888,7 +18045,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 48.26 142.24 0)
+			(at 52.07 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19940,7 +18097,7 @@
 		(pin "B12"
 			(uuid "4c67f1f6-9c78-4523-b484-be10f89a40c5")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "5690a538-24bd-49ee-a525-3bf7671bc6eb")
 		)
 		(pin "A8"
@@ -19950,7 +18107,7 @@
 			(uuid "dbf0579c-e60a-4a20-88e1-175d5bd19767")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "J3")
 					(unit 1)
@@ -20030,7 +18187,7 @@
 			(uuid "619ffb12-7180-401d-9238-6e8c4f3bfbb3")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW18")
 					(unit 1)
@@ -20110,7 +18267,7 @@
 			(uuid "bed29785-ba7a-4c46-95b8-91f0c15a9b8e")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW4")
 					(unit 1)
@@ -20119,9 +18276,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_5")
 		(lib_id "power:GND")
-		(at 119.38 168.91 270)
+		(at 115.57 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20131,7 +18287,7 @@
 		(dnp no)
 		(uuid "5a710428-ee55-4c85-a0e4-7990962541aa")
 		(property "Reference" "#PWR021"
-			(at 113.03 168.91 0)
+			(at 109.22 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20142,7 +18298,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.078 167.894 0)
+			(at 112.268 170.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20153,7 +18309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 168.91 0)
+			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20164,7 +18320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 168.91 0)
+			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20175,7 +18331,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 168.91 0)
+			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20189,7 +18345,7 @@
 			(uuid "b76edb75-be28-4a78-b3a8-112680fdc261")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR021")
 					(unit 1)
@@ -20198,9 +18354,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_8")
 		(lib_id "power:GND")
-		(at 109.22 118.11 270)
+		(at 105.41 120.65 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20210,7 +18365,7 @@
 		(dnp no)
 		(uuid "5b7394dd-3103-41b8-9387-209bd1ed2ce1")
 		(property "Reference" "#PWR026"
-			(at 102.87 118.11 0)
+			(at 99.06 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20221,7 +18376,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 103.886 118.11 90)
+			(at 100.076 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20231,7 +18386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 118.11 0)
+			(at 105.41 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20242,7 +18397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 118.11 0)
+			(at 105.41 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20253,7 +18408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 118.11 0)
+			(at 105.41 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20267,7 +18422,7 @@
 			(uuid "39c45fc2-a1c2-41a4-80e5-ab9c04c9d3a1")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR026")
 					(unit 1)
@@ -20347,7 +18502,7 @@
 			(uuid "1750144a-e69e-4d18-8398-6fd5f19ec7a0")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW17")
 					(unit 1)
@@ -20451,7 +18606,7 @@
 			(uuid "49d86cf7-a9df-48eb-9ab0-5bcbfa8a2f50")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D11")
 					(unit 1)
@@ -20513,8 +18668,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 44.45 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20527,7 +18683,7 @@
 			(uuid "8435b93e-52ec-4061-a00e-1f7c50758674")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR031")
 					(unit 1)
@@ -20536,9 +18692,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 121.92 132.08 270)
+		(at 118.11 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20548,7 +18703,7 @@
 		(dnp no)
 		(uuid "661593de-27cf-4d0c-a85e-ef541fd2c8ff")
 		(property "Reference" "#PWR019"
-			(at 115.57 132.08 0)
+			(at 111.76 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20559,7 +18714,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 117.602 132.08 90)
+			(at 113.792 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20569,7 +18724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 132.08 0)
+			(at 118.11 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20580,7 +18735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 132.08 0)
+			(at 118.11 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20591,7 +18746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 132.08 0)
+			(at 118.11 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20605,7 +18760,7 @@
 			(uuid "1a6a75d1-5bdc-4525-846a-8636972a8499")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR019")
 					(unit 1)
@@ -20709,7 +18864,7 @@
 			(uuid "ba3a7353-ad23-48ea-92d3-bd3eda0b4f3d")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D19")
 					(unit 1)
@@ -20719,7 +18874,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 111.76 162.56 270)
+		(at 107.95 165.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20729,7 +18884,7 @@
 		(dnp no)
 		(uuid "68365f00-5f15-42d0-b305-fcdb8302cc5e")
 		(property "Reference" "R13"
-			(at 114.046 160.528 90)
+			(at 110.236 163.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20739,7 +18894,7 @@
 			)
 		)
 		(property "Value" "3.0k"
-			(at 109.474 160.528 90)
+			(at 105.664 163.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20748,8 +18903,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 111.76 160.782 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 107.95 163.322 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20760,7 +18915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 162.56 0)
+			(at 107.95 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20771,7 +18926,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 111.76 162.56 0)
+			(at 107.95 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20788,7 +18943,7 @@
 			(uuid "54da14e1-64d7-46c7-a33c-463a55906f74")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R13")
 					(unit 1)
@@ -20868,7 +19023,7 @@
 			(uuid "116f7e3f-88e3-407d-a196-8f3f33ff7602")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW11")
 					(unit 1)
@@ -20931,8 +19086,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 31.75 60.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20948,7 +19104,7 @@
 			(uuid "056d1022-e60d-49b7-9684-6e7175055b3b")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "C7")
 					(unit 1)
@@ -21026,7 +19182,7 @@
 			(uuid "3f01dccd-72c0-4c6b-9144-6f7812577058")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR040")
 					(unit 1)
@@ -21036,7 +19192,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 168.91 270)
+		(at 119.38 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21046,7 +19202,7 @@
 		(dnp no)
 		(uuid "73f4ec53-a451-4dd1-a1c5-7d2f4fb9586a")
 		(property "Reference" "R18"
-			(at 124.206 170.942 90)
+			(at 120.396 173.482 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21057,7 +19213,7 @@
 			)
 		)
 		(property "Value" "46.4k"
-			(at 119.38 170.942 90)
+			(at 115.57 173.482 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21067,8 +19223,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 123.19 167.132 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 119.38 169.672 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21079,7 +19235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 168.91 0)
+			(at 119.38 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21090,7 +19246,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 168.91 0)
+			(at 119.38 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21107,7 +19263,7 @@
 			(uuid "01a93148-b9fd-4e45-9b08-ef1b711423ca")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R18")
 					(unit 1)
@@ -21185,7 +19341,7 @@
 			(uuid "9e1afc34-f1bd-42c9-a100-a4d34c286a61")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR038")
 					(unit 1)
@@ -21194,7 +19350,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 220.98 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -21224,8 +19380,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 220.98 151.13 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 220.98 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21236,7 +19392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 151.13 0)
+			(at 220.98 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21246,8 +19402,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 220.98 151.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21275,7 +19432,7 @@
 			(uuid "77a02794-a4bb-4624-9cbb-345f9af0b076")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D31")
 					(unit 1)
@@ -21379,7 +19536,7 @@
 			(uuid "61104f26-41f9-4751-8371-1cf273dd120d")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D16")
 					(unit 1)
@@ -21440,8 +19597,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 36.83 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21457,7 +19615,7 @@
 			(uuid "ced9e975-f8a0-4360-8a07-2b463216f2fc")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "L2")
 					(unit 1)
@@ -21467,7 +19625,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 31.75 125.73 90)
+		(at 26.67 132.08 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21475,10 +19633,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7b7eea72-0ab3-4535-b90d-93e9109a6507")
 		(property "Reference" "#FLG01"
-			(at 29.845 125.73 0)
+			(at 26.67 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21489,18 +19646,18 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 27.94 125.73 90)
+			(at 24.13 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 125.73 0)
+			(at 26.67 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21511,7 +19668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 125.73 0)
+			(at 26.67 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21522,7 +19679,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 31.75 125.73 0)
+			(at 26.67 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21536,7 +19693,7 @@
 			(uuid "eacb2771-4eb7-4f4f-9609-2d2554dec024")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#FLG01")
 					(unit 1)
@@ -21640,7 +19797,7 @@
 			(uuid "9d00ba76-1199-44c0-9678-81753ed345d8")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D18")
 					(unit 1)
@@ -21681,7 +19838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 37.338 223.52 90)
 			(hide yes)
 			(show_name no)
@@ -21721,7 +19878,7 @@
 			(uuid "9da686c6-4ca1-4ed0-928f-9800fd0a1427")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R4")
 					(unit 1)
@@ -21825,7 +19982,7 @@
 			(uuid "54388005-296d-4453-9532-f759358a80d6")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D2")
 					(unit 1)
@@ -21834,9 +19991,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_7")
 		(lib_id "power:GND")
-		(at 147.32 167.64 90)
+		(at 143.51 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21846,7 +20002,7 @@
 		(dnp no)
 		(uuid "831c2362-0118-4fd6-9789-01b5299d4b50")
 		(property "Reference" "#PWR024"
-			(at 153.67 167.64 0)
+			(at 149.86 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21857,7 +20013,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 150.876 168.656 0)
+			(at 147.066 171.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21868,7 +20024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 167.64 0)
+			(at 143.51 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21879,7 +20035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 167.64 0)
+			(at 143.51 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21890,7 +20046,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 167.64 0)
+			(at 143.51 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21904,7 +20060,7 @@
 			(uuid "0c183f62-a23b-4e2f-ad03-3670dbbbcc3a")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR024")
 					(unit 1)
@@ -22008,7 +20164,7 @@
 			(uuid "d0571676-05c4-4b8f-aa53-6a4a4fea4989")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D20")
 					(unit 1)
@@ -22017,7 +20173,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 254 227.33 0)
 		(unit 1)
 		(body_style 1)
@@ -22047,8 +20203,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 254 227.33 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 254 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22059,7 +20215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 227.33 0)
+			(at 254 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22069,8 +20225,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 254 227.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22098,7 +20255,7 @@
 			(uuid "215a8da3-65a7-487e-98ad-e1a06b9a5a57")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D48")
 					(unit 1)
@@ -22178,7 +20335,7 @@
 			(uuid "a0a8bab6-fab9-4e07-8774-4b3a79ecb135")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW22")
 					(unit 1)
@@ -22187,9 +20344,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_6")
 		(lib_id "power:GND")
-		(at 129.54 162.56 0)
+		(at 125.73 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22199,7 +20355,7 @@
 		(dnp no)
 		(uuid "8d896fe8-fff3-493b-872a-7ca5372d5aef")
 		(property "Reference" "#PWR033"
-			(at 129.54 168.91 0)
+			(at 125.73 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22210,7 +20366,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 165.862 0)
+			(at 124.46 168.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22221,7 +20377,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 162.56 0)
+			(at 125.73 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22232,7 +20388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 162.56 0)
+			(at 125.73 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22243,7 +20399,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 162.56 0)
+			(at 125.73 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22257,7 +20413,7 @@
 			(uuid "69c15ac7-9501-4c9a-ac9a-b16040180a83")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR033")
 					(unit 1)
@@ -22335,7 +20491,7 @@
 			(uuid "0968bc7b-0147-49ec-a646-6b73d529a442")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR041")
 					(unit 1)
@@ -22376,7 +20532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 342.9 50.038 90)
 			(hide yes)
 			(show_name no)
@@ -22416,7 +20572,7 @@
 			(uuid "8e92cc7d-1377-4373-9a36-024bffd90630")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R10")
 					(unit 1)
@@ -22479,8 +20635,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 22.86 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22496,7 +20653,7 @@
 			(uuid "ef028e0d-4c10-426b-b37b-d261f84b0306")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "C10")
 					(unit 1)
@@ -22576,7 +20733,7 @@
 			(uuid "a70a3990-9f3f-4381-8161-8f90ae24cded")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW23")
 					(unit 1)
@@ -22799,7 +20956,7 @@
 			(uuid "68b45714-9787-4b06-95d1-bd18f15b41a5")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "U3")
 					(unit 1)
@@ -22877,7 +21034,7 @@
 			(uuid "b2a866c3-73cf-41dd-820b-bf20bafcb3d0")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR015")
 					(unit 1)
@@ -22886,7 +21043,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 187.96 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -22916,8 +21073,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 187.96 151.13 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 187.96 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22928,7 +21085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 151.13 0)
+			(at 187.96 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22938,8 +21095,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 187.96 151.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22967,7 +21125,7 @@
 			(uuid "87654d7a-848a-4efd-9964-4456da227ab9")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D30")
 					(unit 1)
@@ -22977,7 +21135,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 137.16 90)
+		(at 146.05 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22987,7 +21145,7 @@
 		(dnp no)
 		(uuid "a2836976-098d-425e-8ff8-9e3074444f00")
 		(property "Reference" "R19"
-			(at 152.4 135.128 90)
+			(at 148.59 137.668 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22997,7 +21155,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 147.066 135.128 90)
+			(at 143.256 137.668 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23006,8 +21164,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 149.86 138.938 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 146.05 141.478 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23018,7 +21176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 137.16 0)
+			(at 146.05 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23029,7 +21187,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 137.16 0)
+			(at 146.05 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23046,7 +21204,7 @@
 			(uuid "73577cbb-b53c-4d8b-855d-2e42274b6df2")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R19")
 					(unit 1)
@@ -23055,9 +21213,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_9")
 		(lib_id "power:GND")
-		(at 109.22 129.54 270)
+		(at 105.41 132.08 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23067,7 +21224,7 @@
 		(dnp no)
 		(uuid "a2ba4dd9-5758-47ae-b26d-1c3b3acba4f6")
 		(property "Reference" "#PWR027"
-			(at 102.87 129.54 0)
+			(at 99.06 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23078,7 +21235,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.902 129.54 90)
+			(at 101.092 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23088,7 +21245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 129.54 0)
+			(at 105.41 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23099,7 +21256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 129.54 0)
+			(at 105.41 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23110,7 +21267,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 129.54 0)
+			(at 105.41 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23124,7 +21281,7 @@
 			(uuid "8b8ef446-3da9-4e62-aec1-e26f8d9480f5")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR027")
 					(unit 1)
@@ -23228,7 +21385,7 @@
 			(uuid "20af45b7-3448-4f05-b080-d6ce75c3ccd4")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D4")
 					(unit 1)
@@ -23238,7 +21395,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 118.11 270)
+		(at 35.56 119.38 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23248,7 +21405,7 @@
 		(dnp no)
 		(uuid "a52f4aeb-fc0c-4bbc-99b1-52d58895b45d")
 		(property "Reference" "#PWR012"
-			(at 31.75 118.11 0)
+			(at 29.21 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23259,7 +21416,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 115.824 90)
+			(at 35.56 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23270,7 +21427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 118.11 0)
+			(at 35.56 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23281,7 +21438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 118.11 0)
+			(at 35.56 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23291,8 +21448,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 38.1 118.11 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23305,7 +21463,7 @@
 			(uuid "08008cb8-73a9-4f5f-a98c-7d78bb74b844")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR012")
 					(unit 1)
@@ -23367,8 +21525,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 39.37 57.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23381,7 +21540,7 @@
 			(uuid "6f3bd06d-7432-45aa-8704-1999984af718")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR04")
 					(unit 1)
@@ -23420,7 +21579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 321.31 46.228 90)
 			(hide yes)
 			(show_name no)
@@ -23460,7 +21619,7 @@
 			(uuid "cde8d30b-6653-4bcc-8516-2609c9b377c2")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R8")
 					(unit 1)
@@ -23564,7 +21723,7 @@
 			(uuid "8d839692-740c-44e1-88eb-31930745ebe5")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D8")
 					(unit 1)
@@ -23644,7 +21803,7 @@
 			(uuid "bb363b46-d392-462d-bc95-b2543c9c6a71")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW14")
 					(unit 1)
@@ -23748,7 +21907,7 @@
 			(uuid "90344dd4-9b18-448b-a59f-3e28fe61a6aa")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D22")
 					(unit 1)
@@ -23758,7 +21917,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 137.16 166.37 0)
+		(at 133.35 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23768,7 +21927,7 @@
 		(dnp no)
 		(uuid "ad2b8a94-f4a2-4e7a-97bb-dd71a83dc84c")
 		(property "Reference" "R11"
-			(at 135.128 165.354 90)
+			(at 131.318 167.894 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23779,7 +21938,7 @@
 			)
 		)
 		(property "Value" "1.1k"
-			(at 135.128 170.18 90)
+			(at 131.318 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23789,8 +21948,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.382 166.37 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 131.572 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23801,7 +21960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 166.37 0)
+			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23812,7 +21971,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 137.16 166.37 0)
+			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23829,7 +21988,7 @@
 			(uuid "fcb52bfb-7f7d-4324-b61c-f36589bb2db4")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R11")
 					(unit 1)
@@ -23892,8 +22051,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 31.75 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23906,7 +22066,7 @@
 			(uuid "823256a4-a4d5-4673-ac35-61985fedb0df")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#FLG05")
 					(unit 1)
@@ -23915,7 +22075,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 254 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -23945,8 +22105,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 254 176.53 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 254 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23957,7 +22117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 176.53 0)
+			(at 254 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23967,8 +22127,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 254 176.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23996,7 +22157,7 @@
 			(uuid "3e342481-f172-4305-88b6-56d0aafa29dc")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D38")
 					(unit 1)
@@ -24005,9 +22166,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 102.87 157.48 270)
+		(at 99.06 160.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24017,7 +22177,7 @@
 		(dnp no)
 		(uuid "b6f3e272-d0aa-44e6-b88e-364ca3940621")
 		(property "Reference" "#PWR017"
-			(at 96.52 157.48 0)
+			(at 92.71 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24028,7 +22188,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 157.48 0)
+			(at 95.25 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24038,7 +22198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 157.48 0)
+			(at 99.06 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24049,7 +22209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 157.48 0)
+			(at 99.06 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24060,7 +22220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 157.48 0)
+			(at 99.06 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24074,7 +22234,7 @@
 			(uuid "d74a7909-2ec2-45bc-8fc0-cf55853d5d82")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR017")
 					(unit 1)
@@ -24083,7 +22243,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 254 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -24113,8 +22273,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 254 125.73 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 254 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24125,7 +22285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 125.73 0)
+			(at 254 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24135,8 +22295,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 254 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24164,7 +22325,7 @@
 			(uuid "2c4a325e-b44f-44d1-99c6-eecc701577d6")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D26")
 					(unit 1)
@@ -24227,8 +22388,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 33.02 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24244,7 +22406,7 @@
 			(uuid "fef6bf46-f640-4eb3-b704-1a8a3bd42c2d")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "C11")
 					(unit 1)
@@ -24253,7 +22415,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 220.98 227.33 0)
 		(unit 1)
 		(body_style 1)
@@ -24283,8 +22445,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 220.98 227.33 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 220.98 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24295,7 +22457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 227.33 0)
+			(at 220.98 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24305,8 +22467,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 220.98 227.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24334,7 +22497,7 @@
 			(uuid "38685917-5f25-4522-ac76-56d22a9bf4de")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D47")
 					(unit 1)
@@ -24438,7 +22601,7 @@
 			(uuid "f0def5f7-ab05-4c5c-9522-317c4c945794")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D3")
 					(unit 1)
@@ -24542,7 +22705,7 @@
 			(uuid "a50c33b7-d912-403a-81f7-e3e44d3c7a98")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D1")
 					(unit 1)
@@ -24551,8 +22714,7 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_RGB_1")
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 74.93 214.63 90)
 		(unit 1)
 		(body_style 1)
@@ -24582,7 +22744,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 76.2 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -24634,7 +22796,7 @@
 			(uuid "cba0776c-e3dd-4957-80e5-ee0c8494185d")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D50")
 					(unit 1)
@@ -24738,7 +22900,7 @@
 			(uuid "6864e753-546c-4d5e-bbe4-048159ec7d42")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D10")
 					(unit 1)
@@ -24801,8 +22963,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 69.85 185.42 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24815,7 +22978,7 @@
 			(uuid "8663b1d4-513f-46ef-8468-2290c565f7e0")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR05")
 					(unit 1)
@@ -24824,7 +22987,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_11")
 		(lib_id "power:GND")
 		(at 365.76 78.74 180)
 		(unit 1)
@@ -24893,7 +23055,7 @@
 			(uuid "61cfe7eb-e7d7-4c3b-a27b-1777cca04ecb")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR02")
 					(unit 1)
@@ -24932,7 +23094,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 76.708 223.52 90)
 			(hide yes)
 			(show_name no)
@@ -24972,7 +23134,7 @@
 			(uuid "0d5d692d-8ca2-493d-b8f9-53b9130bd221")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R15")
 					(unit 1)
@@ -25053,7 +23215,7 @@
 			(uuid "69f4e429-9bdb-4487-a579-3ed7f5df7ec2")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R6")
 					(unit 1)
@@ -25133,7 +23295,7 @@
 			(uuid "a3b2a3e9-d61f-4fe8-a787-67515c688be4")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW20")
 					(unit 1)
@@ -25196,8 +23358,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 74.93 182.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25213,7 +23376,7 @@
 			(uuid "b9e79024-08ac-4f57-abb9-70741262a526")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "J1")
 					(unit 1)
@@ -25222,7 +23385,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 220.98 201.93 0)
 		(unit 1)
 		(body_style 1)
@@ -25252,8 +23415,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 220.98 201.93 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 220.98 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25264,7 +23427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 201.93 0)
+			(at 220.98 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25274,8 +23437,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 220.98 201.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25303,7 +23467,7 @@
 			(uuid "40eafdc1-cb05-4b82-aa36-29212ad898e3")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D42")
 					(unit 1)
@@ -25407,7 +23571,7 @@
 			(uuid "47a92892-4f06-4595-b643-ba63a3c41a87")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D12")
 					(unit 1)
@@ -25487,7 +23651,7 @@
 			(uuid "cd935b83-51ed-4cdf-a537-bbfebd943429")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW8")
 					(unit 1)
@@ -25591,7 +23755,7 @@
 			(uuid "298fddb2-747b-48e9-a60b-a6511ab6c54e")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D5")
 					(unit 1)
@@ -25600,9 +23764,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 123.19 165.1 270)
+		(at 119.38 167.64 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25612,7 +23775,7 @@
 		(dnp no)
 		(uuid "da1037e7-41d5-4971-ad2b-118b9e860f0f")
 		(property "Reference" "#PWR020"
-			(at 116.84 165.1 0)
+			(at 113.03 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25623,7 +23786,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.126 165.1 90)
+			(at 115.316 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25633,7 +23796,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 165.1 0)
+			(at 119.38 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25644,7 +23807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 165.1 0)
+			(at 119.38 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25655,7 +23818,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 165.1 0)
+			(at 119.38 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25669,7 +23832,7 @@
 			(uuid "5cd85a9f-cd2f-4483-82eb-b2ad578f076c")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR020")
 					(unit 1)
@@ -25678,9 +23841,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_7")
 		(lib_id "power:GND")
-		(at 137.16 170.18 0)
+		(at 133.35 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25690,7 +23852,7 @@
 		(dnp no)
 		(uuid "db1f8d52-7871-4afb-8838-68eff2dc2070")
 		(property "Reference" "#PWR023"
-			(at 137.16 176.53 0)
+			(at 133.35 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25701,7 +23863,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 136.144 173.736 0)
+			(at 132.334 176.276 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25712,7 +23874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 170.18 0)
+			(at 133.35 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25723,7 +23885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 170.18 0)
+			(at 133.35 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25734,7 +23896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 170.18 0)
+			(at 133.35 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25748,7 +23910,7 @@
 			(uuid "a9faf38d-dce5-4188-8193-8b9660987561")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR023")
 					(unit 1)
@@ -25852,7 +24014,7 @@
 			(uuid "27846147-c16f-42a0-827a-60fe10df0719")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D23")
 					(unit 1)
@@ -25862,7 +24024,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 33.02 125.73 0)
+		(at 30.48 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25870,10 +24032,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "de6b1ae4-7464-4886-bbb0-d36ee80a53d0")
 		(property "Reference" "#PWR011"
-			(at 33.02 129.54 0)
+			(at 34.29 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25884,7 +24045,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 33.02 121.285 0)
+			(at 26.035 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25894,7 +24055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 125.73 0)
+			(at 30.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25905,7 +24066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 125.73 0)
+			(at 30.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25915,8 +24076,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 33.02 125.73 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 32.004 123.19 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25929,7 +24091,7 @@
 			(uuid "a000837f-121e-4751-803d-543053029b2a")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR011")
 					(unit 1)
@@ -25939,7 +24101,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 130.81 270)
+		(at 137.16 133.35 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25949,7 +24111,7 @@
 		(dnp no)
 		(uuid "df5afa8f-c6f2-4577-8be4-517d821aebc5")
 		(property "Reference" "R17"
-			(at 143.764 127 0)
+			(at 139.954 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25960,7 +24122,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 138.43 126.238 0)
+			(at 134.62 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25970,8 +24132,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 140.97 129.032 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 137.16 131.572 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25982,7 +24144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 130.81 0)
+			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25993,7 +24155,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140.97 130.81 0)
+			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26010,7 +24172,7 @@
 			(uuid "827e162d-1842-43cd-af27-5873526f9980")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R17")
 					(unit 1)
@@ -26051,7 +24213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 363.22 77.7748 0)
 			(hide yes)
 			(show_name no)
@@ -26091,7 +24253,7 @@
 			(uuid "4472427b-56da-44c8-8c41-1ef9ac175443")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "C31")
 					(unit 1)
@@ -26100,9 +24262,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_7")
 		(lib_id "power:GND")
-		(at 107.95 162.56 270)
+		(at 104.14 165.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26112,7 +24273,7 @@
 		(dnp no)
 		(uuid "e3a44d8d-2543-4f83-8334-597603c8feec")
 		(property "Reference" "#PWR025"
-			(at 101.6 162.56 0)
+			(at 97.79 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26123,7 +24284,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.394 162.56 0)
+			(at 100.584 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26133,7 +24294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 162.56 0)
+			(at 104.14 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26144,7 +24305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 162.56 0)
+			(at 104.14 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26155,7 +24316,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 162.56 0)
+			(at 104.14 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26169,7 +24330,7 @@
 			(uuid "fb1a8403-0eaa-4c8d-910b-640991169d1b")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR025")
 					(unit 1)
@@ -26179,7 +24340,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 121.92 180)
+		(at 105.41 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26189,7 +24350,7 @@
 		(dnp no)
 		(uuid "e8e41643-e45d-41bb-8c3e-1a71fae4eed0")
 		(property "Reference" "C9"
-			(at 115.062 122.936 0)
+			(at 111.252 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26200,7 +24361,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 117.856 120.904 0)
+			(at 114.046 123.444 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26210,8 +24371,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 108.2548 118.11 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 104.4448 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26222,7 +24383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 121.92 0)
+			(at 105.41 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26233,7 +24394,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 121.92 0)
+			(at 105.41 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26250,7 +24411,7 @@
 			(uuid "f23ed032-c035-466e-b3fc-fe86419b9eb7")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "C9")
 					(unit 1)
@@ -26260,7 +24421,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 38.1 124.46 180)
+		(at 41.91 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26270,7 +24431,7 @@
 		(dnp no)
 		(uuid "ea832b23-2ca7-4734-afe7-0e9ff8c0fded")
 		(property "Reference" "R2"
-			(at 34.925 123.19 0)
+			(at 38.735 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26281,7 +24442,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 34.29 125.73 0)
+			(at 38.1 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26292,7 +24453,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 38.1 124.46 0)
+			(at 41.91 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26303,7 +24464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 124.46 0)
+			(at 41.91 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26313,8 +24474,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 38.1 124.46 0)
+		(property "Description" "Resistor, small symbol"
+			(at 41.91 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26330,7 +24492,7 @@
 			(uuid "069c9f43-0232-4793-a886-0ddcdaaa039d")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "R2")
 					(unit 1)
@@ -26339,7 +24501,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_10")
 		(lib_id "power:GND")
 		(at 35.56 229.87 0)
 		(unit 1)
@@ -26409,7 +24570,7 @@
 			(uuid "412f30b1-8506-4eb1-bf21-afbfe37a289a")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR01")
 					(unit 1)
@@ -26489,7 +24650,7 @@
 			(uuid "b416dd1e-88d5-46b9-865a-5c08838663e0")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW21")
 					(unit 1)
@@ -26551,8 +24712,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 29.21 60.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26565,7 +24727,7 @@
 			(uuid "969c9f6c-66fc-494c-98a3-022c35038bca")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR028")
 					(unit 1)
@@ -26574,7 +24736,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 320.04 201.93 0)
 		(unit 1)
 		(body_style 1)
@@ -26604,8 +24766,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 320.04 201.93 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 320.04 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26616,7 +24778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 201.93 0)
+			(at 320.04 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26626,8 +24788,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 320.04 201.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26655,7 +24818,7 @@
 			(uuid "9bba17a8-b899-4d92-b988-86428b2b5849")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D45")
 					(unit 1)
@@ -26759,7 +24922,7 @@
 			(uuid "313ff39b-0aff-47db-bdf5-f263e580415e")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D9")
 					(unit 1)
@@ -26769,7 +24932,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 106.68 157.48 270)
+		(at 102.87 160.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26779,7 +24942,7 @@
 		(dnp no)
 		(uuid "edb5c44d-06ba-4a4b-89f2-a52e4c6a65c0")
 		(property "Reference" "C6"
-			(at 107.696 152.4 0)
+			(at 103.886 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26790,7 +24953,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 105.41 151.384 0)
+			(at 101.6 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26800,8 +24963,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.87 158.4452 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 99.06 160.9852 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26812,7 +24975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 157.48 0)
+			(at 102.87 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26823,7 +24986,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 106.68 157.48 0)
+			(at 102.87 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26840,7 +25003,7 @@
 			(uuid "2f0f499f-288b-4e8c-80fa-f687fe99caec")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "C6")
 					(unit 1)
@@ -26849,7 +25012,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 287.02 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -26879,8 +25042,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 287.02 125.73 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 287.02 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26891,7 +25054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 125.73 0)
+			(at 287.02 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26901,8 +25064,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 287.02 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26930,7 +25094,7 @@
 			(uuid "7fb4e7af-0f9a-4e5e-82f0-2f04b68d8627")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D27")
 					(unit 1)
@@ -26939,7 +25103,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 320.04 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -26969,8 +25133,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 320.04 125.73 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 320.04 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26981,7 +25145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 125.73 0)
+			(at 320.04 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26991,8 +25155,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 320.04 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27020,7 +25185,7 @@
 			(uuid "69c2e7b4-0fab-4586-88cc-e8140bd1b5ad")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D28")
 					(unit 1)
@@ -27061,7 +25226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 354.0252 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -27101,7 +25266,7 @@
 			(uuid "b8b3ad16-c0b1-4bd8-b321-22691361d568")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "C30")
 					(unit 1)
@@ -27205,7 +25370,7 @@
 			(uuid "923cc162-6731-4b2f-afbf-49b886efbbed")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D21")
 					(unit 1)
@@ -27246,7 +25411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 355.6 61.2648 0)
 			(hide yes)
 			(show_name no)
@@ -27286,7 +25451,7 @@
 			(uuid "935189da-efcd-4356-97b0-d9d3a792a3df")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "C29")
 					(unit 1)
@@ -27366,7 +25531,7 @@
 			(uuid "e1edd77e-6117-4ede-ad97-1b4ecba8c60d")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW2")
 					(unit 1)
@@ -27446,7 +25611,7 @@
 			(uuid "02581755-f9cf-4090-b6f2-1882868249ee")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW19")
 					(unit 1)
@@ -27456,7 +25621,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 154.94 0)
+		(at 74.93 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27467,7 +25632,7 @@
 		(fields_autoplaced yes)
 		(uuid "f641d4f3-ae7e-49aa-a261-4d920e2d1b60")
 		(property "Reference" "#PWR09"
-			(at 71.12 161.29 0)
+			(at 74.93 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27478,7 +25643,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 160.02 0)
+			(at 74.93 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27488,7 +25653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 154.94 0)
+			(at 74.93 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27499,7 +25664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 154.94 0)
+			(at 74.93 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27509,8 +25674,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 71.12 154.94 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 156.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27523,7 +25689,7 @@
 			(uuid "33475793-ce89-4184-9eb8-99f8130eec50")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR09")
 					(unit 1)
@@ -27532,9 +25698,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 144.78 149.86 0)
+		(at 140.97 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27545,7 +25710,7 @@
 		(fields_autoplaced yes)
 		(uuid "f90a1e5e-80b4-465e-8f40-42097e586d2e")
 		(property "Reference" "#PWR018"
-			(at 144.78 156.21 0)
+			(at 140.97 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27556,7 +25721,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 154.94 0)
+			(at 140.97 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27566,7 +25731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 149.86 0)
+			(at 140.97 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27577,7 +25742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 149.86 0)
+			(at 140.97 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27588,7 +25753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 149.86 0)
+			(at 140.97 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27602,7 +25767,7 @@
 			(uuid "87bc5698-029a-466f-92e4-8704f8950f62")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR018")
 					(unit 1)
@@ -27611,7 +25776,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 287.02 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -27641,8 +25806,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 287.02 151.13 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 287.02 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27653,7 +25818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 151.13 0)
+			(at 287.02 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27663,8 +25828,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 287.02 151.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27692,7 +25858,7 @@
 			(uuid "8df964e0-289f-4f3f-b55c-1f8e2e87e0d5")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D33")
 					(unit 1)
@@ -27772,7 +25938,7 @@
 			(uuid "00731dfb-6b83-4fa6-abd3-0e07a25d5817")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW3")
 					(unit 1)
@@ -27835,8 +26001,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 130.81 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27849,7 +26016,7 @@
 			(uuid "f6a7db6c-269c-4960-abd0-90091e77ebd0")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR032")
 					(unit 1)
@@ -27928,7 +26095,7 @@
 			(uuid "40927c9c-1404-4d8b-8053-f33c0c69e8f3")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR042")
 					(unit 1)
@@ -28006,7 +26173,7 @@
 			(uuid "d1cdab8b-5cdb-416a-a7e1-1961587f767d")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "#PWR039")
 					(unit 1)
@@ -28015,7 +26182,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
+		(lib_id "LED_RGB_5050:LED_RGB_5050")
 		(at 287.02 201.93 0)
 		(unit 1)
 		(body_style 1)
@@ -28045,8 +26212,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 287.02 201.93 0)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 287.02 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28057,7 +26224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 201.93 0)
+			(at 287.02 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28067,8 +26234,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, 6 pin package"
 			(at 287.02 201.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28096,7 +26264,7 @@
 			(uuid "c1bcdfa4-75bc-43c1-a176-a1197e896cd4")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "D44")
 					(unit 1)
@@ -28176,7 +26344,7 @@
 			(uuid "a60d42d5-e1dc-429d-8d40-3938f6c97b26")
 		)
 		(instances
-			(project "keyboard"
+			(project "key_left"
 				(path "/c053c90b-601f-46c1-830a-356c8d75a13c"
 					(reference "SW15")
 					(unit 1)

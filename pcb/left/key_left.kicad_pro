@@ -490,7 +490,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "keyboard.kicad_pro",
+    "filename": "key_left.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -614,12 +614,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -653,6 +677,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -665,18 +697,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "keyboard.kicad_sch",
-        "name": "keyboard",
+        "filename": "key_left.kicad_sch",
+        "name": "key_left",
         "uuid": "c053c90b-601f-46c1-830a-356c8d75a13c"
       }
     ],
-    "used_designators": "C31,D29,#PWR1-2,#PWR12,#PWR33,R1,R4,R14-19",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "c053c90b-601f-46c1-830a-356c8d75a13c",
-      "keyboard"
+      "key_left"
     ]
   ],
   "text_variables": {},

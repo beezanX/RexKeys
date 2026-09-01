@@ -1,1 +1,8 @@
+
+*.bak
+*.lck
+*-bak
+*~
+_autosave-*
 .history/
+
